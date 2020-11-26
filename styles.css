@@ -109,3 +109,17 @@ hr {
 .ow {
     background-color: var(--off-white);
 }
+/* footer */
+.footer {
+    background-color: var(--dark-gray);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: var(--off-white);
+}
+.foooter ul {
+    padding-inline-start: 0px;
+}
