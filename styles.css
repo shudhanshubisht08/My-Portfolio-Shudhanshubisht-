@@ -129,7 +129,7 @@ hr {
 /* footer */
 .footer {
     background-color: var(--dark-gray);
-    padding: 2rem 1rem 0rem;
+    padding: 0rem 0rem 2rem;
     text-align: center;
     color: black;
     border-top-right-radius: 1rem;
@@ -144,4 +144,13 @@ hr {
 }
 .foooter ul {
     padding-inline-start: 0px;
+}
+#main-footer {
+    padding: 2rem 1rem 1rem;
+    background-color: var(--dark-gray);
+    color: var(--off-white);   
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+
 }
