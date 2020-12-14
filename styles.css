@@ -36,7 +36,6 @@ hr {
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
 }
-
 .link-primary {
     background-color: var(--primary-color);
     color: white;
@@ -67,9 +66,12 @@ hr {
 /* navigation */
 .navigation {
     background-color: var(--primary-color);
-    color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+}
+.navigation :hover{
+    text-decoration: underline;
+    color: wheat;
 }
 
 .navigation .nav-brand {
