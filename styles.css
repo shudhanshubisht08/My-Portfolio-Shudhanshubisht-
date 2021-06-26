@@ -103,7 +103,8 @@ hr {
 .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    colo:rgb(71, 56, 56);
+    font-size: 1.5vw;
+    color:rgb(71, 56, 56);
 }
 
 .heading-invertor {
