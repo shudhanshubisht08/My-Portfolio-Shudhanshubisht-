@@ -2,7 +2,7 @@
 
 
 :root {
-    --primary-color: #7C3AED;
+    --primary-color: #A683E3;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
 }
@@ -19,9 +19,6 @@ hr {
     padding:  2rem;
 }
 /* container */
-.container {
-    padding-left: 0rem 1rem;
-}
 
 .container-center {
     max-width: 600px;
@@ -32,7 +29,7 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5 rem 1 rem;
-    border-radius: 0.2rem;
+    /* border-radius: 0.2rem; */
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
 }
@@ -67,7 +64,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    /* border-bottom-left-radius: 1rem; */
 }
 .navigation :hover{
     text-decoration: underline;
@@ -93,6 +90,8 @@ hr {
 
 /* Header */
 .hero {
+    /* background-color: var(--primary-color); */
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
     padding: 2rem;
     padding-top: 5rem;
 
@@ -107,7 +106,7 @@ hr {
 .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: thistle;
+    colo:rgb(71, 56, 56);
 }
 
 .heading-invertor {
