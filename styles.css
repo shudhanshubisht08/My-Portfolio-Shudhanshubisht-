@@ -1,47 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
 :root {
-    --primary-color: #A683E3;
-    --dark-gray: #6B7280;
-    --off-white: #F3F4F6;
+  --primary-color: #a683e3;
+  --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    margin: 0px;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
 }
 
 hr {
-    margin: 2rem 0rem;
+  margin: 2rem 0rem;
 }
-.margin-md{
-    padding:  2rem;
+.margin-md {
+  padding: 2rem;
 }
 /* container */
 
 .container-center {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 /* Links */
 .link {
-    box-sizing: border-box;
-    text-decoration: none;
-    font-size: 30px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 30px;
 }
 .link-primary {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 0.1rem 0.2rem 0rem 0.2rem;
-
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.1rem 0.2rem 0rem 0.2rem;
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-    padding: 0.1rem 0.2rem 0rem 0.2rem;
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+  padding: 0.1rem 0.2rem 0rem 0.2rem;
 }
 
 /* look into BEM naming convention */
@@ -49,107 +47,106 @@ hr {
 /* lists */
 
 .list-non-bullet {
-    list-style: none;
+  list-style: none;
 }
 
 .list-item-inline {
-    display: inline;
-    padding: 0rem 0.5rem
+  display: inline;
+  padding: 0rem 0.5rem;
 }
 
 /* navigation */
 .navigation {
-    background-color: var(--primary-color);
-    padding: 1rem;
-    /* border-bottom-left-radius: 1rem; */
+  background-color: var(--primary-color);
+  padding: 1rem;
+  /* border-bottom-left-radius: 1rem; */
 }
-.navigation :hover{
-    text-decoration: underline;
-    color: wheat;
+.navigation :hover {
+  text-decoration: underline;
+  color: wheat;
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
-    font-size: 1.1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .navigation .nav-pills {
-    text-align: left;
+  text-align: left;
 }
 
 .navigation .link {
-    color: white;
+  color: white;
 }
 
 .navigation .nav-link {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* Header */
 .hero {
-    /* background-color: var(--primary-color); */
-    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
-    padding: 2rem;
-    padding-top: 5rem;
-
+  /* background-color: var(--primary-color); */
+  background-image: -webkit-linear-gradient(65deg, #a683e3 60%, #e4e9fd 50%);
+  padding: 2rem;
+  padding-top: 5rem;
 }
 
 .hero-img {
-    max-width: 350px;
-    display: block;
-    margin: auto;
+  max-width: 350px;
+  display: block;
+  margin: auto;
 }
 
 .hero-heading {
-    text-align: center;
-    padding-top: 1rem;
-    font-size: 3vw;
-    color:rgb(71, 56, 56);
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 3vw;
+  color: rgb(71, 56, 56);
 }
 
 .heading-invertor {
-    color: chocolate;
+  color: chocolate;
 }
 
 /* section */
 .section {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .section h1 {
-    text-align: left;
-    padding: 0rem;
+  text-align: left;
+  padding: 0rem;
 }
 
 .ow {
-    background-color: var(--off-white);
+  background-color: var(--off-white);
 }
 
 /* footer */
 .footer {
-    background-color: var(--dark-gray);
-    padding: 0rem 0rem 1rem;
-    text-align: center;
-    color: black;
-    border-top-right-radius: 1rem;
+  background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
+
+  padding: 0rem 0rem 1rem;
+  text-align: center;
+  color: black;
+  border-top-right-radius: 1rem;
 }
 
 .footer .link {
-    color: var(--off-white);
+  color: var(--off-white);
 }
 .footer .footer-header {
-    font-weight: bold;
-    font-size: large;
+  font-weight: bold;
+  font-size: large;
 }
 .foooter ul {
-    padding-inline-start: 0px;
+  padding-inline-start: 0px;
 }
 #main-footer {
-    padding: 2rem 1rem 1rem;
-    background-color: var(--dark-gray);
-    color: var(--off-white);   
-    font-weight: bold;
-    font-size: small;
-    text-align: center;
-
+  padding: 2rem 1rem 1rem;
+  background-image: -webkit-linear-gradient(65deg, #a683e3 60%, #e4e9fd 50%);
+  color: var(--off-white);
+  font-weight: bold;
+  font-size: small;
+  text-align: center;
 }
